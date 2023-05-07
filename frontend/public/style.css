@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: aliceblue;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #91D8E4;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  .login-header{
+    font-family: "McLaren", cursive;
+    position: absolute;
+    margin-top: 190px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+  }
+  .login-header:hover{
+    animation: my-animation 1s ease;
+  }
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+  .note {
+    font-family: "Coming Soon", cursive;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+  .note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    cursor: pointer;
+  }
+  .note h1:hover{
+    color: #91D8E4;
+  }
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .note button {
+    background:none;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #91D8E4;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+  .register, .login {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#91E5DC,#91D8E4 ); ;
+  }
+  .loginform{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .loginform input{
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+  }
+  .loginform button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #91D8E4;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+  }
+  .loginform button:hover{
+    cursor: pointer;
+    background-color: azure;
+  }
+  .register p, .login p{
+    padding: 10px;
+    color: #39BBB5;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .smallbtn{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font: inherit;
+    text-decoration: underline;
+  }
+  .smallbtn:hover{
+    color: aliceblue;
+    text-decoration: underline;
+  }
+  .noteform {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  .noteform input,
+  .noteform textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+  }
+  .noteform button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #91D8E4;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5rem;
+  }
+  hr{
+    border: none;
+    border-top: 1px dashed gainsboro;
+  }
+  @keyframes my-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -20px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
